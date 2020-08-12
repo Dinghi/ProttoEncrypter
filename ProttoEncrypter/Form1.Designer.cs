@@ -1,6 +1,6 @@
 ﻿namespace ProttoEncrypter
 {
-    partial class Form1
+    partial class ProttoCrypter
     {
         /// <summary>
         /// Required designer variable.
@@ -90,7 +90,7 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Passphase";
             // 
-            // Form1
+            // ProttoCrypter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             this.Controls.Add(this.CryptaButton);
             this.Controls.Add(this.EncrypterText);
             this.Controls.Add(this.NormalText);
-            this.Name = "Form1";
+            this.Name = "ProttoCrypter";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

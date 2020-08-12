@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace ProttoEncrypter
 {
-    public partial class Form1 : Form
+    public partial class ProttoCrypter : Form
     {
         public class StringCipher
         {
@@ -99,7 +99,7 @@ namespace ProttoEncrypter
                 return randomBytes;
             }
         }
-        public Form1()
+        public ProttoCrypter()
         {
             InitializeComponent();
         }
